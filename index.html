@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+    .photo {
+      margin: 20px auto;
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #fff;
+      color: #ff6b81;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ff6b81;
+      color: #fff;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);} 
+      to {opacity: 1; transform: translateY(0);} 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday, Sayang ❤️</h1><!-- FOTO PACAR -->
+<img src="foto.jpg" alt="Foto Pacar" class="photo">
+
+<p>
+  Di hari spesial ini, aku cuma mau bilang terima kasih karena kamu sudah hadir di hidupku.
+  Semoga semua impian kamu tercapai, dan kita selalu bersama sampai kapan pun.
+</p>
+<p>
+  Aku sayang kamu lebih dari kata-kata yang bisa aku jelaskan 💕
+</p>
+<button class="btn" onclick="showMessage()">Klik Aku</button>
+<p id="hiddenMessage" style="display:none; margin-top:20px;">
+  Surprise! 🎉 Kamu adalah hadiah terindah dalam hidupku.
+</p>
+
+  </div>  <script>
+    function showMessage() {
+      document.getElementById('hiddenMessage').style.display = 'block';
+    }
+  </script></body>
+</html>
